@@ -82,6 +82,7 @@ class InquirerControl(TokenListControl):
 
             @if_mousedown
             def select_item(cli, mouse_event):
+                return
                 # bind option with this index to mouse event
                 self.selected_option_index = index
                 self.answered = True
